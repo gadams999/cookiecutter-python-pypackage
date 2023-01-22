@@ -1,43 +1,8 @@
 # cookiecutter-hypermodern-python
 
-<!-- badges-begin -->
-
-[![Status][status badge]][status badge]
-[![Python Version][python version badge]][github page]
-[![CalVer][calver badge]][calver]
-[![License][license badge]][license]<br>
-[![Read the documentation][readthedocs badge]][readthedocs page]
-[![Tests][github actions badge]][github actions page]
-[![Codecov][codecov badge]][codecov page]<br>
-[![pre-commit enabled][pre-commit badge]][pre-commit project]
-[![Black codestyle][black badge]][black project]
-[![Contributor Covenant][contributor covenant badge]][code of conduct]
-
-[black badge]: https://img.shields.io/badge/code%20style-black-000000.svg
-[black project]: https://github.com/psf/black
-[calver badge]: https://img.shields.io/badge/calver-YYYY.MM.DD-22bfda.svg
-[calver]: http://calver.org/
-[code of conduct]: https://github.com/cjolowicz/cookiecutter-hypermodern-python/blob/main/CODE_OF_CONDUCT.md
-[codecov badge]: https://codecov.io/gh/cjolowicz/cookiecutter-hypermodern-python-instance/branch/main/graph/badge.svg
-[codecov page]: https://codecov.io/gh/cjolowicz/cookiecutter-hypermodern-python-instance
-[contributor covenant badge]: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg
-[github actions badge]: https://github.com/cjolowicz/cookiecutter-hypermodern-python/workflows/Tests/badge.svg
-[github actions page]: https://github.com/cjolowicz/cookiecutter-hypermodern-python/actions?workflow=Tests
-[github page]: https://github.com/cjolowicz/cookiecutter-hypermodern-python
-[license badge]: https://img.shields.io/github/license/cjolowicz/cookiecutter-hypermodern-python
-[license]: https://opensource.org/licenses/MIT
-[pre-commit badge]: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
-[pre-commit project]: https://pre-commit.com/
-[python version badge]: https://img.shields.io/pypi/pyversions/cookiecutter-hypermodern-python-instance
-[readthedocs badge]: https://img.shields.io/readthedocs/cookiecutter-hypermodern-python/latest.svg?label=Read%20the%20Docs
-[readthedocs page]: https://cookiecutter-hypermodern-python.readthedocs.io/
-[status badge]: https://badgen.net/badge/status/alpha/d8624d
-
-<!-- badges-end -->
-
 <p align="center"><img alt="logo" src="docs/_static/logo.png" width="50%" /></p>
 
-[Cookiecutter] template for a Python package based on the
+Pypackagetemplate for a Python package based on the
 [Hypermodern Python] article series.
 
 ✨📚✨ [Read the full documentation][readthedocs page]
@@ -48,7 +13,7 @@
 ## Usage
 
 ```console
-$ cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python --checkout=2022.6.3
+$ cookiecutter gh:gadams999/cookiecutter-python-pypackage
 ```
 
 ## Features
@@ -78,7 +43,7 @@ $ cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python --checkout=2022.6.3
 - Generate command-line reference with [sphinx-click]
 - Manage project labels with [GitHub Labeler]
 
-The template supports Python 3.7, 3.8, 3.9, and 3.10.
+The template supports Python 3.8, 3.9, 3.10, and 3.11.
 
 [autodoc]: https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html
 [bandit]: https://github.com/PyCQA/bandit
