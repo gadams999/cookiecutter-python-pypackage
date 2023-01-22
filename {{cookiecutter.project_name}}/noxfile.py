@@ -213,8 +213,11 @@ def docs_build(session: Session) -> None:
         args.insert(0, "--color")
 
     session.install(".")
+{%- if cookiecutter.include_click -%}
     session.install("sphinx", "sphinx-click", "furo", "myst-parser")
-
+{%- else -%}
+    session.install("sphinx", "furo", "myst-parser")
+{% endif %}
     build_dir = Path("docs", "_build")
     if build_dir.exists():
         shutil.rmtree(build_dir)
